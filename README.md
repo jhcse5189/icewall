@@ -58,13 +58,32 @@ copy the string of the specific version from the `second column`.
 
 ### 3. Verifying by running hello-world image.
     $ sudo docker run hello-world
- 
+    OR
+    $ docker version
 - - -
 - - -
 
 # **Create a base image**
-    https://docs.docker.com/develop/develop-images/baseimages/
+    
+    applied 'sudo su' command ...
 
-## CREATE A FUL IMAGE USING TAR
 - - -
->### 1. 
+>### 1. Download
+
+    $ docker run ubuntu:18.04
+
+>### 2. Execute
+
+    $ docker run --rm -it ubuntu:18.04 /bin/bash
+
+    # in container
+    $ cat /etc/issue
+    Ubuntu 18.04.3 LTS \n \l
+
+    $ ls
+    bin   dev  home  lib64  mnt  proc  run   srv  tmp  var
+    boot  etc  lib   media  opt  root  sbin  sys  usr
+
+>### 3. Exit
+
+    $ exit
