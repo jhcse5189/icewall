@@ -1,0 +1,10 @@
+GIT.
+
+=> git flow
+
+pull requests, as 'merge' requests.
+
+in /sunrinio/wiki
+-> Manual.
+
+
